@@ -1,157 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.11" start="node1" apprev="18043">
-  <panorama id="node1">
-    <input height="1000" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0.820495" levelingroll="0.304349" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="1000">
-      <level predecode="0" height="1000" preload="0" width="1000"/>
-      <level predecode="1" height="500" preload="1" width="500"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="70" pan="-0.41" tilt="-3.13" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="30.04" pan="0" tilt="-90"/>
-      <max fov="81.04" pan="360" tilt="90" fovstereographic="62.04" fovfisheye="62.04" scaletofit="1"/>
-    </view>
-    <userdata tags="FINAL" source="" copyright="" customnodeid="" comment="" latitude="" author="Tom Robert" description="" nodeid="node1" datetime="" title="" info="" heading="0" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundalpha="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderalpha="1" background="1" borderradius="1" wordwrap="1" textcolor="0x000000" width="180" border="1"/>
-      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot pan="-339.1" tilt="-9.93" skinid="ht_info" target="" url="" id="Point01" description="Akademi Gastronomi Indonesia (AGI) adalah sebuah organisasi yang memiliki komitmen kuat dan kompetensi yang tinggi untuk dapat mewujudkan keyakinan bahwa Indonesia dapat menjadi negara terkaya di dunia dalam bidang gastronomi &#xa;&#xa;Note: THis is just a sample....!" title="AGI Bldg INFO&#xa;"/>
-      <polyhotspot target="" url="{node5}" id="Poly01" description="" title="ENTER Building">
-        <polystring>-357.52/11.87|-29.02/10.86|-29.02/-7.68|-360/-11.24|-357.52/-9.48</polystring>
-      </polyhotspot>
-    </hotspots>
-    <media>
-      <sound nodechangekeep="0" loop="1" field="90.000" pan="-1.000" tilt="-1.000" tiltsize="10.000" ambientlevel="0.000" id="_background" pansize="10.000" startmutedmobile="0" level="0.800" mode="0">
-        <source url="media/aud-00-OutDoor.mp3"/>
-      </sound>
-      <lensflare alpha="80.000" pan="-128.240" type="1" tilt="13.680" id="Lensflare01" color="0xffffff" blinding="50.000"/>
-    </media>
-    <transition zoomin="2" zoomafterinfov="90" zoomfov="10" type="crossdissolve" zoomspeed="4" enabled="1" zoomout="0" blendtime="1" zoomafteroutfov="20" zoomoutpause="1" blendcolor="0x000000" softedge="0"/>
-    <autorotate delay="5.00" nodefilter="" useanimation="0" nodedelay="0.00" enabled="1" returntohorizon="0.000" speed="0.020" startloaded="1" noderandom="1"/>
-    <soundstransition enabled="1" transitiontime="3" crossfade="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control invertcontrol="1" contextfullscreen="1" contextprojections="0" sensitivity="9" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="3" dblclickfullscreen="0" hideabout="0" lockedkeyboard="0" simulatemass="1" invertwheel="0" lockedwheel="0"/>
-  </panorama>
-  <panorama id="node5">
-    <input height="1000" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="1000">
-      <level predecode="0" height="1000" preload="0" width="1000"/>
-      <level predecode="1" height="500" preload="1" width="500"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="52.92" pan="0" tilt="-90"/>
-      <max fov="90" pan="360" tilt="90" fovstereographic="90" fovfisheye="90" scaletofit="1"/>
-    </view>
-    <userdata tags="FINAL" source="" copyright="" customnodeid="" comment="" latitude="" author="Tom Robert" description="" nodeid="node5" datetime="" title="" info="" heading="0" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundalpha="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderalpha="1" background="1" borderradius="1" wordwrap="1" textcolor="0x000000" width="180" border="1"/>
-      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot pan="-336.06" tilt="-12.79" skinid="ht_node" target="" url="{node4}" id="Point01" description="" title="Library and  AGI's  Corner"/>
-      <hotspot pan="-720.52" tilt="-10.84" skinid="ht_node" target="" url="{node3}" id="Point02" description="" title="Museum  Entrance Spot"/>
-      <polyhotspot target="" url="{node1}" id="Poly01" description="" title="EXIT  Building">
-        <polystring>-152.97/36.98|-234.32/29.72|-233.25/-30.16|-151.45/-40.57|-151.2/-29.82</polystring>
-      </polyhotspot>
-    </hotspots>
-    <media>
-      <sound nodechangekeep="0" loop="1" field="90.000" pan="-1.000" tilt="-1.000" tiltsize="10.000" ambientlevel="0.000" id="_background" pansize="10.000" startmutedmobile="0" level="0.750" mode="0">
-        <source url="media/aud-01-Lobby.mp3"/>
-      </sound>
-    </media>
-    <transition zoomin="2" zoomafterinfov="90" zoomfov="10" type="crossdissolve" zoomspeed="4" enabled="1" zoomout="0" blendtime="1" zoomafteroutfov="20" zoomoutpause="1" blendcolor="0x000000" softedge="0"/>
-    <autorotate delay="5.00" nodefilter="" useanimation="0" nodedelay="0.00" enabled="1" returntohorizon="0.000" speed="0.020" startloaded="1" noderandom="1"/>
-    <soundstransition enabled="1" transitiontime="3" crossfade="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control invertcontrol="1" contextfullscreen="1" contextprojections="0" sensitivity="9" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="3" dblclickfullscreen="0" hideabout="0" lockedkeyboard="0" simulatemass="1" invertwheel="0" lockedwheel="0"/>
-  </panorama>
-  <panorama id="node3">
-    <input height="1000" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-0.145906" levelingroll="0.0603088" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="1000">
-      <level predecode="0" height="1000" preload="0" width="1000"/>
-      <level predecode="1" height="500" preload="1" width="500"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="30" pan="0" tilt="-90"/>
-      <max fov="96.01" pan="360" tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata tags="FINAL" source="" copyright="" customnodeid="" comment="" latitude="" author="Tom Robert" description="" nodeid="node3" datetime="" title="" info="" heading="0" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundalpha="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderalpha="1" background="1" borderradius="1" wordwrap="1" textcolor="0x000000" width="180" border="1"/>
-      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot pan="-218.23" tilt="-22.35" skinid="ht_node" target="" url="{node4}" id="Point01" description="" title="Library  and  AGI's Corner"/>
-      <hotspot pan="-182.08" tilt="-16.18" skinid="ht_node" target="" url="{node5}" id="Point02" description="" title="Door  Entry View"/>
-      <polyhotspot target="_blank" url="" id="Poly01" description="" title="Going  Up  To  Level-1">
-        <polystring>-338/14.85|-356.33/15.99|-356.16/10.41|-337.85/9.79</polystring>
-      </polyhotspot>
-      <polyhotspot target="_blank" url="" id="Poly02" description="" title="Going Up to Level-2">
-        <polystring>-338.41/6.46|-355.41/6.92|-355.75/1.9|-338.26/1.62</polystring>
-      </polyhotspot>
-      <polyhotspot target="_blank" url="" id="Poly03" description="" title="Going Up to Level-1">
-        <polystring>-358.99/-5.98|-29.55/-5.02|-34.17/-16.34|-34.49/-18.93|-358.65/-22.66|-358.65/-22.66</polystring>
-      </polyhotspot>
-      <polyhotspot target="" url="{node1}" id="Poly04" description="" title="EXIT  Building">
-        <polystring>-178.53/-0.93|-188.11/-0.75|-188.43/-10.33|-178.02/-10.59|-178.02/-10.59</polystring>
-      </polyhotspot>
-    </hotspots>
-    <media>
-      <image fov="11.866" height="2400" pan="-14.030" clickmode="0" tilt="6.860" handcursor="0" id="Element01" rotx="0.000" roty="0.000" rotz="0.000" width="2019" stretch="1.000">
-        <source url="media/underConstruction.png"/>
-      </image>
-    </media>
-    <transition zoomin="2" zoomafterinfov="90" zoomfov="10" type="crossdissolve" zoomspeed="4" enabled="1" zoomout="0" blendtime="1" zoomafteroutfov="20" zoomoutpause="1" blendcolor="0x000000" softedge="0"/>
-    <autorotate delay="5.00" nodefilter="" useanimation="0" nodedelay="0.00" enabled="1" returntohorizon="0.000" speed="0.020" startloaded="1" noderandom="1"/>
-    <soundstransition enabled="1" transitiontime="3" crossfade="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control invertcontrol="1" contextfullscreen="1" contextprojections="0" sensitivity="9" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="3" dblclickfullscreen="0" hideabout="0" lockedkeyboard="0" simulatemass="1" invertwheel="0" lockedwheel="0"/>
-  </panorama>
+<tour start="node4" appversion="6.1.11" apprev="18043">
   <panorama id="node4">
-    <input height="1000" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0.851203" levelingroll="0.231488" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="1000">
-      <level predecode="0" height="1000" preload="0" width="1000"/>
-      <level predecode="1" height="500" preload="1" width="500"/>
+    <input overlap="1" levelingroll="-0.207799" height="1000" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0.880531" levelbias="0.400" width="1000">
+      <level predecode="0" preload="1" height="1000" width="1000"/>
+      <level predecode="1" preload="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="30" pan="0" tilt="-90"/>
-      <max fov="69.04" pan="360" tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="95.72" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fov="37" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="105" pan="360"/>
     </view>
-    <userdata tags="FINAL" source="" copyright="" customnodeid="" comment="" latitude="" author="Tom Robert" description="" nodeid="node4" datetime="" title="" info="" heading="0" longitude=""/>
+    <userdata datetime="" copyright="" nodeid="node4" latitude="" tags="Pano_IMG" comment="" description="" author="" title="Pintu Masuk gedung AGI" source="" info="" customnodeid="" longitude="" heading="0"/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundalpha="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderalpha="1" background="1" borderradius="1" wordwrap="1" textcolor="0x000000" width="180" border="1"/>
-      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot pan="-281.31" tilt="1.52" skinid="ht_info" target="" url="" id="Point01" description="Curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a physical location or a virtual space, or both. A library's collection can include printed materials and other physical resources in many formats such as DVDs, as well as access to information, music or other content held on bibliographic databases" title="Gastronomi Library"/>
-      <hotspot pan="-118.68" tilt="-11.5" skinid="ht_node" target="" url="{node3}" id="Point02" description="" title="Museum  Entrance"/>
-      <hotspot pan="-49.24" tilt="2.07" skinid="ht_image" target="" url="images/warning_geek_woman.png" id="Point03" description="" title="AGI's 2021 Members"/>
-      <hotspot pan="-49.2" tilt="-4.56" skinid="ht_video_file" target="" url="media/vid_Lobby_test.mp4" id="Point05" description="" title="Sample Meals Video"/>
-      <hotspot pan="-240.76" tilt="-12.7" skinid="ht_node" target="" url="{node5}" id="Point04" description="" title="Door View Lobby"/>
-      <hotspot pan="-4.06998" tilt="2.04" skinid="ht_info" target="" url="" id="Point06" description="" title="Presiden and Wise President Indonesia"/>
-      <polyhotspot target="" url="{node4}" id="Poly01" description="" title="Directory  Board">
-        <polystring>-73.32/38.78|-102.08/39|-102.87/12.02|-72.55/11.47</polystring>
+      <label border="1" background="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" borderalpha="1" enabled="1" wordwrap="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <polyhotspot target="" id="Poly01" description="" title="Masuk Gedung AGI" url="{node1}">
+        <polystring>-9.69/9.45|-44.33/6.4|-44.37/-14.76|-9.4/-19.93|-9.4/-19.93</polystring>
       </polyhotspot>
-      <polyhotspot target="" url="{node1}" id="Poly02" description="" title="EXIT  Building">
-        <polystring>-245.93/7.46|-260.73/8.03|-260.57/-10.98|-244.9/-9.93|-244.9/-9.93</polystring>
-      </polyhotspot>
-      <polyhotspot target="_blank" url="" id="Poly03" description="" title="AGI's  Icon">
-        <polystring>-42.78/17.08|-54.92/19.94|-55.16/10.61|-43.51/8.8|-43.51/8.8</polystring>
+      <polyhotspot target="_blank" id="Poly02" description="" title="Informasi Gedung  AGI" url="">
+        <polystring>-333.2/4.64|-352.86/4.8|-352.17/-10.74|-333/-9.67|-333/-9.67</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="2" zoomafterinfov="90" zoomfov="10" type="crossdissolve" zoomspeed="4" enabled="1" zoomout="0" blendtime="1" zoomafteroutfov="20" zoomoutpause="1" blendcolor="0x000000" softedge="0"/>
-    <autorotate delay="5.00" nodefilter="" useanimation="0" nodedelay="0.00" enabled="1" returntohorizon="0.000" speed="0.020" startloaded="1" noderandom="1"/>
-    <soundstransition enabled="1" transitiontime="3" crossfade="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control invertcontrol="1" contextfullscreen="1" contextprojections="0" sensitivity="9" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="3" dblclickfullscreen="0" hideabout="0" lockedkeyboard="0" simulatemass="1" invertwheel="0" lockedwheel="0"/>
+    <transition type="crossdissolve" softedge="0" zoomfov="35" zoomout="2" zoomin="2" zoomoutpause="1" zoomafteroutfov="20" enabled="1" blendtime="2" zoomafterinfov="105" zoomspeed="0.4" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" useanimation="0" nodedelay="0.00" startloaded="1" delay="5.00" noderandom="1" speed="0.020" enabled="1" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedmouse="0" sensitivity="8" rubberband="0" lockedwheel="0" hideabout="0" lockedkeyboard="0" contextfullscreen="1" invertwheel="0" contextprojections="0" speedwheel="3" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1"/>
+  </panorama>
+  <panorama id="node1">
+    <input overlap="1" levelingroll="0" height="1000" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" width="1000">
+      <level predecode="0" preload="1" height="1000" width="1000"/>
+      <level predecode="1" preload="1" height="500" width="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fov="35" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="88" pan="360"/>
+    </view>
+    <userdata datetime="" copyright="" nodeid="node1" latitude="" tags="Pano_IMG" comment="" description="" author="" title="View Pintu masuk Lobby" source="" info="" customnodeid="" longitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label border="1" background="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" borderalpha="1" enabled="1" wordwrap="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" tilt="-11.41" target="" id="Point02" description="" title="Perpustakaan dan AGI corner" url="{node3}" pan="-337.85"/>
+      <hotspot skinid="ht_node" tilt="-11.71" target="" id="Point01" description="" title="View Tengah Lobby" url="{node5}" pan="-0.17"/>
+      <polyhotspot target="" id="Poly01" description="" title="Pintu Masuk gedung AGI" url="{node4}">
+        <polystring>-152.84/41.08|-233.37/30.17|-232.82/-30.53|-152.37/-40.84|-152.37/-40.84</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly02" description="" title="Menuju Lantai 1 - Museum" url="">
+        <polystring>-1.7/1.88|-12.25/1.83|-12.43/-5.06|-0.69/-5.2</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <sound pansize="10.000" startmutedmobile="0" tilt="-1.000" ambientlevel="0.000" id="_background" level="0.500" tiltsize="10.000" mode="0" nodechangekeep="0" field="90.000" pan="-1.000" loop="1">
+        <source url="media/aud-01-Lobby.mp3"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" softedge="0" zoomfov="35" zoomout="2" zoomin="2" zoomoutpause="1" zoomafteroutfov="20" enabled="1" blendtime="2" zoomafterinfov="105" zoomspeed="0.4" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" useanimation="0" nodedelay="0.00" startloaded="1" delay="5.00" noderandom="1" speed="0.020" enabled="1" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedmouse="0" sensitivity="8" rubberband="0" lockedwheel="0" hideabout="0" lockedkeyboard="0" contextfullscreen="1" invertwheel="0" contextprojections="0" speedwheel="3" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input overlap="1" levelingroll="0.453564" height="1000" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-0.809464" levelbias="0.400" width="1000">
+      <level predecode="0" preload="1" height="1000" width="1000"/>
+      <level predecode="1" preload="1" height="500" width="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fov="31.58" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="80.59" pan="360"/>
+    </view>
+    <userdata datetime="" copyright="" nodeid="node5" latitude="" tags="Pano_IMG" comment="" description="" author="" title="View Tengah Lobby" source="" info="" customnodeid="" longitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label border="1" background="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" borderalpha="1" enabled="1" wordwrap="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" tilt="-23.47" target="" id="Point01" description="" title="Perpustakaan dan AGI corner" url="{node3}" pan="-283.75"/>
+      <hotspot skinid="ht_node" tilt="-17.15" target="" id="Point02" description="" title="View Pintu masuk Lobby" url="{node1}" pan="-180.35"/>
+      <polyhotspot target="_blank" id="Poly01" description="" title="Menuju Lantai 1" url="">
+        <polystring>-1.35/1.28|-17.6/1.3|-21.52/-8.51|-1.22/-9.09</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly02" description="" title="Menuju Lantai 1" url="">
+        <polystring>-350.83/9|-1.08/8.9|-1.28/6.01|-350.98/6.01|-351/6.28</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly03" description="" title="Menuju Lantai 2" url="">
+        <polystring>-351.08/4.88|-1.18/4.71|-1.28/2.05|-351.12/2|-351.12/2</polystring>
+      </polyhotspot>
+      <polyhotspot target="" id="Poly04" description="" title="Pintu Masuk gedung AGI" url="{node4}">
+        <polystring>-163.74/10.01|-194.03/10|-193.21/-8.81|-164.06/-9.05</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image roty="0.000" tilt="4.520" id="Element01" clickmode="0" handcursor="0" rotx="0.000" rotz="0.000" height="2400" fov="4.245" pan="-9.420" stretch="1.000" width="2019">
+        <source url="media/underConstruction.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" softedge="0" zoomfov="35" zoomout="2" zoomin="2" zoomoutpause="1" zoomafteroutfov="20" enabled="1" blendtime="2" zoomafterinfov="105" zoomspeed="0.4" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" useanimation="0" nodedelay="0.00" startloaded="1" delay="5.00" noderandom="1" speed="0.020" enabled="1" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedmouse="0" sensitivity="8" rubberband="0" lockedwheel="0" hideabout="0" lockedkeyboard="0" contextfullscreen="1" invertwheel="0" contextprojections="0" speedwheel="3" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input overlap="1" levelingroll="0" height="1000" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" width="1000">
+      <level predecode="0" preload="1" height="1000" width="1000"/>
+      <level predecode="1" preload="1" height="500" width="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fov="32" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="70" pan="360"/>
+    </view>
+    <userdata datetime="" copyright="" nodeid="node3" latitude="" tags="Pano_IMG" comment="" description="" author="" title="Perpustakaan dan AGI corner" source="" info="" customnodeid="" longitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label border="1" background="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" borderalpha="1" enabled="1" wordwrap="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_info" tilt="3.57" target="" id="Point01" description="" title="President and Wise President of Indonesia" url="" pan="-3.53"/>
+      <hotspot skinid="ht_node" tilt="-29.18" target="" id="Point02" description="" title="View Tengah Lobby" url="{node5}" pan="-173.92"/>
+      <hotspot skinid="ht_url" tilt="2.62" target="_blank" id="Point03" description="" title="Perpustakaan Gastronomy" url="" pan="-280"/>
+      <hotspot skinid="ht_node" tilt="-11.95" target="" id="Point04" description="" title="View Pintu masuk Lobby" url="{node1}" pan="-241.74"/>
+      <polyhotspot target="_blank" id="Poly01" description="" title="Logo  A.G.I" url="">
+        <polystring>-42.87/17.73|-55.15/20.63|-55.44/10.74|-43.45/9.33|-43.16/13.29</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly02" description="" title="Menuju Lantai 1" url="">
+        <polystring>-75.09/35.3|-102.77/35.21|-102.61/33.81|-75.12/33.88|-75.12/33.88</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly03" description="" title="Menuju Lantai 2" url="">
+        <polystring>-75.01/33.15|-102.19/33.06|-102.22/31.8|-75.12/31.91</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly04" description="" title="Under Construction" url="">
+        <polystring>-75.16/30.84|-102.91/30.56|-101.88/12.9|-75.04/12.93</polystring>
+      </polyhotspot>
+      <polyhotspot target="" id="Poly05" description="" title="Pintu Masuk gedung AGI" url="{node4}">
+        <polystring>-245.47/7.68|-260.36/8.39|-260.22/-8.07|-245.39/-7.69|-245.39/-7.69</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly06" description="" title="Photo Anggota AGI 2021" url="">
+        <polystring>-46.74/4.7|-52.32/5|-52.23/-0.5|-46.6/-0.91|-46.6/-0.91</polystring>
+      </polyhotspot>
+      <polyhotspot target="_blank" id="Poly07" description="" title="Menuju Lantai 1 " url="">
+        <polystring>-107.92/3.29|-120.12/2.83|-126.02/-7.59|-107.49/-8.22|-107.49/-8.43</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" softedge="0" zoomfov="35" zoomout="2" zoomin="2" zoomoutpause="1" zoomafteroutfov="20" enabled="1" blendtime="2" zoomafterinfov="105" zoomspeed="0.4" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" useanimation="0" nodedelay="0.00" startloaded="1" delay="5.00" noderandom="1" speed="0.020" enabled="1" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedmouse="0" sensitivity="8" rubberband="0" lockedwheel="0" hideabout="0" lockedkeyboard="0" contextfullscreen="1" invertwheel="0" contextprojections="0" speedwheel="3" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1"/>
   </panorama>
   <masternode>
-    <userdata tags="" source="" copyright="" customnodeid="" comment="" latitude="" author="" description="" nodeid="master" datetime="" title="" info="" heading="0" longitude=""/>
+    <userdata datetime="" copyright="" nodeid="master" latitude="" tags="" comment="" description="" author="" title="" source="" info="" customnodeid="" longitude="" heading="0"/>
   </masternode>
 </tour>
